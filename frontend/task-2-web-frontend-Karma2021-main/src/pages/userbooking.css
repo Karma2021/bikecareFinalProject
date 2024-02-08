@@ -1,0 +1,20 @@
+.text-center{
+    font-family: 'Courier New', Courier, monospace;
+    /* font-weight: bold; */
+}
+.containerbox{
+    text-align: center;
+    /* background-color: red; */
+    min-height: 100vh;
+    border-radius: 20px;
+    /* width: 80%;   */
+}
+.ant-col.p-3.ant-col-sm-24.ant-col-lg-6.css-dev-only-do-not-override-14wwjjs {
+    background-color: white;
+}
+.ant-col.p-3.ant-col-sm-24.ant-col-lg-12.css-dev-only-do-not-override-14wwjjs {
+    background-color: white;
+}
+.ant-row.bs1.mt-4.text-left.css-dev-only-do-not-override-14wwjjs {
+    background-color: white;
+}

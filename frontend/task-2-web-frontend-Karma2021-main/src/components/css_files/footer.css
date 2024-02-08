@@ -1,0 +1,93 @@
+/* Footer Part  */
+.social-links {
+    background-color: #151515;
+    height: 150px;
+}
+
+.social-links h1 {
+    font-size: 35px;
+    color: #FFFFFF;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+
+.social-icon {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.social-icon i {
+    font-size: 30px;
+    padding: 15px;
+    color: #FFFFFF;
+}
+
+.social-icon i:hover {
+    color: #a21d1d;
+    cursor: pointer;
+}
+
+.copyright {
+    height: 80px;
+    background-color: #151515;
+    padding-bottom: 100px;
+}
+
+.copyright p {
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+
+@media all and (max-width: 630px) {
+    .social-links h1 {
+        font-size: 30px;
+    }
+
+    .social-icon i {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .copyright p {
+        font-size: 15px;
+    }
+}
+
+/* Scroll To Top  */
+.arrow {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9;
+}
+
+.arrow a:hover {
+    background-color: #ff0000;
+}
+
+.arrow a span:hover {
+    color: #000 !important;
+}
+
+.arrow a {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background: #a21d1d;
+    display: block;
+    padding: 14px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.arrow a span {
+    color: #f2f2f2;
+    font-size: 50px;
+    line-height: 45px;
+    cursor: pointer;
+}

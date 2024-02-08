@@ -1,0 +1,54 @@
+.admin-panel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.admin-panel-container h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.edit {
+    color: red;
+    margin-right: 10px;
+    cursor: pointer
+}
+
+.delete {
+    color: green;
+    cursor: pointer;
+}
+
+h3.mt-1.mr-2 {
+    color: red;
+    font-size: 35px;
+}
+
+.adminbtn {
+    background-color: #000000;
+    color: white !important;
+    text-decoration: none !important;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    /* border-radius: 15px; */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.adminbtn:hover {
+    background-color: #1890ff;
+}
+
+.ant-col.mt-3.p-3.admin-panel-container.ant-col-xs-24.ant-col-sm-24.ant-col-lg-20.css-dev-only-do-not-override-14wwjjs {
+    background-color: #829aab;
+}
+
+.ant-row.ant-row-center.css-dev-only-do-not-override-14wwjjs {
+    background-color: #e6ecf3;
+}

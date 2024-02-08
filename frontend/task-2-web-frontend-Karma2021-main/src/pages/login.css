@@ -1,0 +1,76 @@
+.login {
+    background-color: black;
+    text-align: center;
+    padding-top: 50px;
+    min-height: 100vh;
+}
+
+.login label,
+.login h1 {
+    color: white !important;
+    opacity: 0.6;
+    font-family: cursive;
+
+}
+
+.w-100 {
+    width: 75% !important;
+}
+
+.login-form {
+    background-color: #1F1F1F;
+}
+
+.login-form input {
+    background-color: #333333 !important;
+    border: none !important;
+    color: white;
+    opacity: 0.5;
+}
+
+.login-logo {
+    position: absolute;
+    left: 46px;
+    right: 0;
+    top: 85%;
+    bottom: 50%;
+    transform: translateY(-50%, -50%);
+    font-size: 45px;
+    opacity: 0.2 !important;
+}
+
+.login a {
+    color: white !important;
+    opacity: 0.5;
+}
+
+.btnlogin {
+    background-color: #cc3737;
+    color: white !important;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.ant-form-item-label {
+    font-size: 6px;
+}
+
+.ant-input {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+}
+
+label.ant-form-item-required {
+    font-family: monospace;
+    font-size: 30px;
+}
+button.btnlogin.mt-2 {
+    font-family: monospace;
+}

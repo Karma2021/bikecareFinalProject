@@ -1,0 +1,126 @@
+/* Main  */
+main {
+    height: 90vh;
+    background-blend-mode: darken;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(D:\sem-5\Bike-Care\frontend\src\assets\images\cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border-bottom: 5px solid #a21d1d; */
+    /* filter: blur(0.5px);  */
+}
+
+.wrapper h1 {
+    font-size: 60px;
+    font-weight: 550;
+    color: #fffcfc;
+    padding-bottom: 40px;
+    letter-spacing: 0.8px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 4px black;
+}
+
+.wrapper p {
+    color: #c4c3c3;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-shadow: 2px 2px 4px black;
+    padding-bottom: 40px;
+}
+
+.wrapper a {
+    border: 1.5px solid transparent;
+    padding: 15px 33px;
+    border-radius: 50px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 510;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background: transparent;
+    color: #c4c3c3;
+    transition: all 0.5s ease;
+    border-color: #FFFFFF;
+}
+
+.wrapper a:hover {
+    background: #C12928;
+    color: #fff;
+    border-color: #da2626;
+}
+
+.change_content:after {
+    content: '';
+    animation: changetext 15s infinite linear;
+    color: #C12928;
+    font-size: 45px;
+    padding-bottom: 40px;
+
+}
+
+@keyframes changetext {
+    0% {
+        content: "We Educate, We Motivate";
+        color: #ff0000
+    }
+
+    33% {
+        content: "Push Further than You Can";
+        color: #ff0000
+    }
+
+    66% {
+        content: "Change Your Dreams Into Reality";
+        color: #ff0000
+    }
+
+    100% {
+        content: "Showing You The Better Path For The Better Future";
+        color: #ff0000
+    }
+}
+
+@media all and (max-width: 500px) {
+    .wrapper h1 {
+        font-size: 50px;
+    }
+
+    .wrapper p {
+        font-size: 30px;
+    }
+
+    .change_content:after {
+        font-size: 35px;
+    }
+
+    .wrapper a {
+        padding: 12px 30px;
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .wrapper h1 {
+        font-size: 35px;
+    }
+
+    .wrapper p {
+        font-size: 20px;
+    }
+
+    .change_content:after {
+        font-size: 22px;
+    }
+
+    .wrapper a {
+        padding: 10px 26px;
+        font-size: 20px;
+    }
+}

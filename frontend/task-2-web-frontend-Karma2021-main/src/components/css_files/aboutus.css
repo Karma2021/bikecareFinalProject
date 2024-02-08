@@ -1,0 +1,369 @@
+/* body part  */
+.banner {
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url(D:\sem-5\Bike-Care\frontend\src\assets\images\about.jpg);
+}
+
+.banner h1 {
+    font-size: 70px;
+    color: #FFFFFF;
+    padding-left: 100px;
+    padding-top: 80px;
+    text-shadow: 2px 2px 4px black;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.banner h2 {
+    font-size: 30px;
+    color: #FFFFFF;
+    padding-left: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 4px black;
+}
+
+@media all and (max-width: 580px) {
+    .banner h1 {
+        font-size: 60px;
+        padding-left: 80px;
+    }
+
+    .banner h2 {
+        font-size: 25px;
+        padding-left: 100px;
+    }
+}
+
+@media all and (max-width: 440px) {
+    .banner h1 {
+        font-size: 50px;
+        padding-left: 5px;
+    }
+
+    .banner h2 {
+        font-size: 20px;
+        padding-left: 15px;
+    }
+}
+
+@media all and (max-width: 328px) {
+    .banner h1 {
+        font-size: 43px;
+    }
+}
+
+/* About Us  */
+.about {
+    display: flex;
+    justify-content: center;
+    padding: 100px 150px;
+    box-sizing: content-box;
+}
+
+.para h1 {
+    padding-top: 15px;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+}
+
+.para h2 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 60px;
+}
+
+.para p {
+    text-align: justify;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+
+.btnn {
+    padding-top: 25px;
+}
+
+.btnn a {
+    border: 1.5px solid transparent;
+    padding: 12px 30px;
+    border-radius: 50px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 510;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background: #FFFFFF;
+    color: #000;
+    transition: all 0.5s ease;
+    border: 1px solid #a21d1d;
+}
+
+.btnn a:hover {
+    color: #FFFFFF;
+    background: #a21d1d;
+}
+
+@media all and (min-width: 1250px) {
+    .about .para {
+        width: 500px;
+        float: left;
+        padding-left: 25px;
+    }
+}
+
+@media all and (max-width: 1038px) {
+    .about {
+        justify-content: flex-start;
+        padding: 30px 50px;
+    }
+
+    .about img {
+        width: 400px;
+    }
+
+    .about .para {
+        max-width: 100%;
+        float: none;
+    }
+}
+
+@media all and (max-width: 980px) {
+    .about img {
+        padding-top: 40px;
+        width: 300px;
+    }
+
+    .about .para h1 {
+        font-size: 50px;
+        font-weight: 520;
+    }
+
+    .about .para h2 {
+        font-size: 30px;
+        font-weight: 480;
+        padding-bottom: 30px;
+    }
+
+    .para p {
+        padding-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .about {
+        display: block;
+    }
+
+    .about img {
+        padding-top: none;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .about .para h1 {
+        font-size: 60px;
+        font-weight: 545;
+    }
+
+    .about .para h2 {
+        font-size: 35px;
+        font-weight: 4950;
+        padding-bottom: 40px;
+    }
+
+    .about .para .btnn {
+        padding-bottom: 30px;
+    }
+}
+
+@media all and (max-width: 460px) {
+    .about {
+        padding: 10px 15px;
+    }
+
+    .about .para h1 {
+        font-size: 40px;
+    }
+
+    .about .para h2 {
+        font-size: 20px;
+    }
+
+    .about .para p {
+        font-size: 16px;
+    }
+}
+
+/* Trainers  */
+.team-section {
+    padding: 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.team-section h1 {
+    position: relative;
+    height: auto;
+    width: 506px;
+    left: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    transform: translate(-50%);
+    margin-bottom: 24px;
+    margin-top: -111px;
+    font-size: 49px;
+    text-align: center;
+    color: #000;
+    /* text-shadow: 2px 2px 4px black; */
+}
+
+.name {
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.rank {
+    text-align: center;
+    color: white;
+}
+
+.border {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 3px;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.wrappers {
+    /* margin: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto; */
+    text-align: center;
+}
+
+.ps {
+    margin-bottom: 30px;
+}
+
+.ps a {
+    display: inline-block;
+    margin: 0 30px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-origin: content-box;
+}
+
+.ps a img {
+    width: 100%;
+}
+
+.team-box {
+    /* margin: 10px;
+    width: 200px;
+    height: 100px; */
+    border-radius: 30px;
+    background-color: rgb(48, 48, 48);
+    padding: 20px 70px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+.team-box:hover {
+    background-color: rgb(76, 76, 76);
+    transition: 0.2s all;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .4);
+}
+
+.social {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.social i {
+    font-size: 30px;
+    padding: 15px;
+    color: #FFFFFF;
+}
+
+.social i:hover {
+    color: #a21d1d;
+    cursor: pointer;
+}
+
+
+@media all and (max-width: 1300px) {
+    .wrappers {
+        margin: 30px 0;
+    }
+
+    .team-box {
+        padding: 20px 40px;
+    }
+}
+
+@media all and (max-width: 1160px) {
+    .team-section {
+        padding: 50px 0;
+    }
+}
+
+@media all and (max-width: 1030px) {
+    .ps a {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .team-section {
+        padding: 50px;
+    }
+
+    .wrappers {
+        grid-template-columns: auto;
+    }
+
+    .team-section h1 {
+        width: 400px;
+    }
+}
+
+@media all and (max-width: 575px) {
+    .team-section h1 {
+        width: 250px;
+        left: 50%;
+        transform: translate(-50%);
+        margin-bottom: 8px;
+        font-size: 42px;
+    }
+}
+
+@media all and (max-width: 385px) {
+    .team-section {
+        padding: 40px;
+    }
+
+    .team-box {
+        padding: 20px 30px;
+    }
+}
+
+@media all and (max-width: 340px) {
+    .team-section {
+        padding: 50px 2px;
+    }
+}
